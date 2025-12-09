@@ -137,6 +137,15 @@ width: 100%;
   text-align: center;
 }
 
+.omoss img {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  align-self: flex-start;
+  flex-direction: ;
+  forc
+}
+
 .section{
   height: 100vh;
 }
