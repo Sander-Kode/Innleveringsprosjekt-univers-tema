@@ -137,13 +137,29 @@ width: 100%;
   text-align: center;
 }
 
-.omoss img {
+.portretter {
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
   display: flex;
-  width: 250px;
-  height: 250px;
-  align-self: flex-start;
-  flex-direction: ;
-  forc
+  justify-content: center;
+  gap: 120px;       
+}
+
+.portretter img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  
+}
+
+.portretttekst {
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 120px;  
 }
 
 .section{
