@@ -6,31 +6,41 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    
-    <header class="header">
-      <p class="logo"><img src="/images/Infinity logo 1.jpg" alt="Logo av infinity symbolet"></p>
       
-      <ul class="navlist">
-        <li><a href="#section-1" class="navlink">Hjem</a></li>
-        <li><a href="#section-2" class="navlink">Om oss</a></li>
-        <li><a href="#section-3" class="navlink">Prosjekter</a></li>
-        <li><a href="#section-4" class="navlink">Kontakt oss</a></li>
-      </ul>
-      
+      <header class="header">
 
-    </header>
+        <div class="header-top">
+          <img src="/images/Infinity logo 1.jpg" class="logo" alt="Logo">
+        </div>
+      
+        <nav class="nav-area">
+          <ul class="navlist">
+            <li><a href="#section-1">Hjem</a></li>
+            <li><a href="#section-2">Om oss</a></li>
+            <li><a href="#section-3">Prosjekter</a></li>
+          
+          </ul>
+        </nav>
+      
+      </header>
 
     <main class="main">
       <section id="section-1" class="section hero">
+
+        <img class="heroimg" src="/images/astronaut hero.avif" alt="astronaut">
+
         <div class="herotext">
           <h1>Velkommen</h1>
           <p>Lorem ipsum dolor sit amet consectetur. Fermentum fringilla id enim quisque faucibus sed egestas nunc erat. Consectetur rutrum etiam donec tristique semper. Integer pharetra pellentesque viverra odio bibendum. Mauris amet phasellus eget id nunc lobortis porttitor. Dolor adipiscing rhoncus facilisi massa sem ipsum aliquet condimentum feugiat. Lacus elit egestas nisl elementum nulla orci aliquam. Habitant tristique vel in nunc. Nisl nisi nibh urna quam cursus. Morbi sit diam aliquet pulvinar. Enim scelerisque dictumst sed a. Fringilla ac facilisis varius amet in maecenas. Cras vitae nec sed odio a dictum auctor sit. Augue tortor at nullam quis rutrum duis commodo massa sagittis. Cras enim semper sit vitae viverra ac vitae. Faucibus porta integer elit semper enim fringilla tempor. Non tellus tristique sagittis sed vitae sem. Placerat erat justo eleifend quis id dignissim lectus dignissim faucibus. Elementum non amet dictum augue nunc. Diam posuere vulputate odio ut eget sit arcu nisl eleifend.</p>
         </div>
 
-        <img class="hero" src="/images/astronaut hero.avif" alt="astronaut">
+        
 
       </section>
 
@@ -118,14 +128,27 @@
 
       
       
-      <p>hei</p>
+      <footer class="footer">
+
+        <p class="footer-left">Alle rettigheter er reservert "Eksempel"</p>
+        <p class="footer-right">Organisasjonsnummer 0919 9182398 912</p>
+  
+      </footer>
       
     </main>
     
     
-    <footer>
     
 
-    </footer>
+
+    <button class="to-top" onclick="scrollToTop()">Til toppen</button>
+    <script>
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }
+    </script>
   </body>
 </html>
