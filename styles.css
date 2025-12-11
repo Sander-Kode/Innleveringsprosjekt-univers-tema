@@ -189,9 +189,33 @@ width: 100%;
 
 .prosjektelementer {
   position: absolute;
-  bottom: 25%;
+  bottom: 50%;
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 120px;       
+  gap: 150px;       
+}
+
+.prosjektelementer2 {
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 150px;       
+}
+
+.prosjektelementer img {
+  width: 400px;
+  height: 250px;
+}
+
+.prosjektelementer2 img {
+  width: 400px;
+  height: 250px;
+}
+
+.prosjekt-info {
+  text-align: center;
+  color: white;
 }
